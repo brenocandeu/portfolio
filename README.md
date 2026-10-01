@@ -1,36 +1,57 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+<div align="center">
+  <h1>🚀 Breno Candeu | Portfólio Pessoal</h1>
+  <p>Meu portfólio construído com foco em design minimalista, performance e suporte a múltiplos idiomas.</p>
+</div>
 
-## Getting Started
+---
 
-First, run the development server:
+## 📖 Sobre o Projeto
+Este é o repositório do meu portfólio, desenhado para refletir minha transição para o **Desenvolvimento Web Frontend**, unindo minha forte base analítica de suporte técnico à construção de interfaces modernas, escaláveis e limpas.
 
+## 🛠 Tecnologias Utilizadas
+- **[Next.js](https://nextjs.org/)** - Framework React para produção
+- **[React](https://reactjs.org/)** - Biblioteca JavaScript para construção de interfaces
+- **[TypeScript](https://www.typescriptlang.org/)** - JavaScript com tipagem estática
+- **[Tailwind CSS](https://tailwindcss.com/)** - Estilização utilitária e responsiva
+- **[Framer Motion](https://www.framer.com/motion/)** - Animações fluidas
+- **[React Icons](https://react-icons.github.io/react-icons/)** - Ícones de interface
+
+## ✨ Funcionalidades
+- 🌍 **Internacionalização (i18n):** Suporte nativo para Português (PT-BR), Inglês (EN) e Espanhol (ES).
+- 📱 **Responsividade:** Layout 100% responsivo para qualquer tamanho de tela (mobile, tablet e desktop).
+- 🎨 **Design Moderno e Minimalista:** Estética clean, uso de micro-interações, efeitos vazados e navegação suave.
+- 🚀 **Otimização:** Desenvolvido com foco absoluto na performance de carregamento e acessibilidade.
+
+## 🚀 Como Executar o Projeto Localmente
+
+1. Clone este repositório:
 ```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
+git clone https://github.com/brenocandeu/portfolio.git
 ```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+2. Acesse a pasta do projeto:
+```bash
+cd portfolio
+```
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+3. Instale as dependências:
+```bash
+npm install
+```
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+4. Inicie o servidor de desenvolvimento:
+```bash
+npm run dev
+```
 
-## Learn More
+5. Acesse no seu navegador: [http://localhost:3000](http://localhost:3000)
 
-To learn more about Next.js, take a look at the following resources:
+## 📞 Contato
+Sinta-se à vontade para entrar em contato comigo:
+- **LinkedIn:** [Breno Candeu](https://www.linkedin.com/in/brenocandeu/)
+- **Email:** [brenocandeu16@gmail.com](mailto:brenocandeu16@gmail.com)
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
-
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
-
-## Deploy on Vercel
-
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+---
+<div align="center">
+  Feito com ☕ e código por Breno Candeu.
+</div>
