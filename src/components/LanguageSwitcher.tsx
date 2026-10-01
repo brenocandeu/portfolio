@@ -1,13 +1,14 @@
 "use client";
 
 import { useLanguage } from '../i18n/LanguageContext';
+import { Locale } from '../i18n/translations';
 
 export const LanguageSwitcher = () => {
   const { locale, setLocale } = useLanguage();
 
   return (
     <div className="flex items-center bg-[var(--border-color)]/50 rounded-full p-1 relative">
-      {['pt-BR', 'en', 'es'].map((lang) => {
+      {(['pt-BR', 'en', 'es'] as Locale[]).map((lang) => {
         const isActive = locale === lang;
         return (
           <button
