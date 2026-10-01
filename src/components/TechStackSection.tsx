@@ -5,7 +5,8 @@ import ScrollReveal from "./ScrollReveal";
 import { 
   SiTypescript, 
   SiJavascript, 
-  SiPython, 
+  SiHtml5,
+  SiCss,
   SiReact, 
   SiNextdotjs, 
   SiTailwindcss, 
@@ -14,14 +15,16 @@ import {
   SiGithub, 
   SiDocker, 
   SiPostgresql, 
-  SiMongodb, 
   SiFigma 
 } from "react-icons/si";
+import { FaAws } from "react-icons/fa";
+import { DiRedis } from "react-icons/di";
 
 const techItems = [
-  { name: "TypeScript", icon: SiTypescript, color: "#3178C6" },
+  { name: "HTML5", icon: SiHtml5, color: "#E34F26" },
+  { name: "CSS3", icon: SiCss, color: "#1572B6" },
   { name: "JavaScript", icon: SiJavascript, color: "#F7DF1E" },
-  { name: "Python", icon: SiPython, color: "#3776AB" },
+  { name: "TypeScript", icon: SiTypescript, color: "#3178C6" },
   { name: "React", icon: SiReact, color: "#61DAFB" },
   { name: "Next.js", icon: SiNextdotjs, color: "var(--fg)" },
   { name: "Tailwind CSS", icon: SiTailwindcss, color: "#06B6D4" },
@@ -30,7 +33,8 @@ const techItems = [
   { name: "GitHub", icon: SiGithub, color: "var(--fg)" },
   { name: "Docker", icon: SiDocker, color: "#2496ED" },
   { name: "PostgreSQL", icon: SiPostgresql, color: "#4169E1" },
-  { name: "MongoDB", icon: SiMongodb, color: "#47A248" },
+  { name: "Redis", icon: DiRedis, color: "#DC382D" },
+  { name: "AWS", icon: FaAws, color: "#FF9900" },
   { name: "Figma", icon: SiFigma, color: "#F24E1E" },
 ];
 

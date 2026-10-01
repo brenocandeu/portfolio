@@ -22,7 +22,7 @@ export default function Navbar() {
   const navLinks = [
     { name: t("nav.home"), href: "#home" },
     { name: t("nav.experience"), href: "#experience" },
-    { name: "Certifications", href: "#certifications" },
+    { name: t("nav.certifications"), href: "#certifications" },
     { name: t("nav.projects"), href: "#projetos" },
     { name: t("nav.contact"), href: "#contato" },
   ];
@@ -30,7 +30,7 @@ export default function Navbar() {
   return (
     <nav
       className={`fixed top-0 w-full z-50 transition-all duration-300 ${
-        scrolled ? "bg-[var(--bg)]/90 backdrop-blur-md border-b border-[var(--border-color)]/50 py-4" : "bg-transparent py-6"
+        scrolled ? "bg-[var(--bg)]/90 backdrop-blur-md py-4" : "bg-transparent py-6"
       }`}
     >
       <div className="max-w-[1400px] mx-auto px-6 md:px-12 flex items-center justify-between">

@@ -5,6 +5,8 @@ export const translations = {
     nav: {
       home: 'Início',
       about: 'Sobre',
+      experience: 'Experiência',
+      certifications: 'Certificações',
       projects: 'Projetos',
       contact: 'Contato',
     },
@@ -78,7 +80,7 @@ export const translations = {
     }
   },
   'en': {
-    nav: { home: 'Home', about: 'About', projects: 'Projects', contact: 'Contact' },
+    nav: { home: 'Home', about: 'About', experience: 'Experience', certifications: 'Certifications', projects: 'Projects', contact: 'Contact' },
     hero: { title: 'BRENO', subtitle: 'Frontend Developer', description: 'Uniting analytical thinking with minimalist aesthetics. Translating system complexity into clean, invisible, and unforgettable interfaces.' },
     loading: { name: '~/breno' },
     about: { label: '// about', title: 'About Me', bio: 'I am a frontend developer passionate about clean code and minimal design. I build modern interfaces that deliver the best user experience.', bio2: 'My main focus is creating web applications with high performance and accessibility, combining the best of technology and design to solve complex problems elegantly.', yearsExp: '2+', yearsExpLabel: 'years exp', projects: '10+', projectsLabel: 'projects', focus: '100%', focusLabel: 'frontend focus' },
@@ -121,7 +123,7 @@ export const translations = {
       ctaHighlight: 'together', ctaDescription: 'I am always open to discussing product design projects, partnerships, and career opportunities.', copyright: '© 2024 Breno. All rights reserved.', builtWith: 'Built with ☕ and code' }
   },
   'es': {
-    nav: { home: 'Inicio', about: 'Sobre', projects: 'Proyectos', contact: 'Contacto' },
+    nav: { home: 'Inicio', about: 'Sobre', experience: 'Experiencia', certifications: 'Certificaciones', projects: 'Proyectos', contact: 'Contacto' },
     hero: { title: 'BRENO', subtitle: 'Desarrollador Frontend', description: 'Uniendo el pensamiento analítico con la estética minimalista. Traduciendo la complejidad del sistema en interfaces limpias, invisibles e inolvidables.' },
     loading: { name: '~/breno' },
     about: { label: '// sobre', title: 'Sobre Mí', bio: 'Soy un desarrollador frontend apasionado por el código limpio y el diseño minimalista. Construyo interfaces modernas que ofrecen la mejor experiencia de usuario.', bio2: 'Mi enfoque principal es crear aplicaciones web con alto rendimiento y accesibilidad, combinando lo mejor de la tecnología y el diseño para resolver problemas complejos de manera elegante.', yearsExp: '2+', yearsExpLabel: 'años exp', projects: '10+', projectsLabel: 'proyectos', focus: '100%', focusLabel: 'foco frontend' },

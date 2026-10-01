@@ -10,9 +10,8 @@ export default function ExperienceSection() {
 
   const getTags = (idx: number) => {
     const tagsList = [
-      ["NEXT.JS", "OFFLINE-FIRST MOBILE", "FULL-STACK", "SYSTEM ANALYSIS"],
-      ["LARAVEL MVC", "MYSQL", "AUTOMATION", "LEADERSHIP"],
-      ["REACT", "UI/UX", "FRONTEND ARCHITECTURE", "PERFORMANCE"]
+      ["DIAGNÓSTICO DE REDES", "ATENDIMENTO TÉCNICO", "INFRAESTRUTURA", "RESOLUÇÃO DE FALHAS"],
+      ["SUPORTE A SOFTWARES", "TREINAMENTO", "GESTÃO DE PONTO", "ATENDIMENTO CORPORATIVO"]
     ];
     return tagsList[idx % tagsList.length];
   };
@@ -20,9 +19,9 @@ export default function ExperienceSection() {
   return (
     <section id="experience" className="py-32 md:py-40 w-full max-w-7xl mx-auto px-6 font-sans overflow-hidden">
       <ScrollReveal>
-        <span className="text-[var(--muted)] font-mono text-lg md:text-xl tracking-tight block mb-4 text-center">
+        {/* <span className="text-[var(--muted)] font-mono text-lg md:text-xl tracking-tight block mb-4 text-center">
           // {t('experience.label')}
-        </span>
+        </span> */}
         <h2 className="text-[var(--fg)] text-4xl md:text-6xl font-bold tracking-tighter mb-24 md:mb-32 text-center uppercase">
           {t('experience.title')}
         </h2>
@@ -37,9 +36,6 @@ export default function ExperienceSection() {
           {Array.isArray(experiences) && experiences.map((exp: any, index: number) => {
             const isEven = index % 2 === 0;
 
-            const yearMatch = exp.period.match(/\d{4}/);
-            const year = yearMatch ? yearMatch[0] : exp.period.split(' ')[0];
-
             return (
               <ScrollReveal key={index} delay={0.1}>
                 <div className={`relative flex flex-col md:flex-row items-center gap-12 md:gap-0 ${isEven ? 'md:flex-row' : 'md:flex-row-reverse'}`}>
@@ -51,14 +47,14 @@ export default function ExperienceSection() {
                   <div className={`w-full md:w-1/2 flex flex-col items-center justify-center pl-16 md:pl-0 ${isEven ? 'md:pr-16 lg:pr-24' : 'md:pl-16 lg:pl-24'}`}>
                     <div className="relative flex flex-col items-center group cursor-pointer">
                       <div 
-                        className="text-[6rem] sm:text-[7rem] md:text-[9rem] font-bold tracking-tighter leading-none select-none transition-transform duration-500 group-hover:scale-105" 
+                        className="text-[3rem] sm:text-[4rem] md:text-[4.5rem] lg:text-[5.5rem] whitespace-nowrap font-bold tracking-tighter leading-none select-none" 
                         style={{ WebkitTextStroke: '2px var(--fg)', color: 'transparent' }}
                       >
-                        {year}
+                        {exp.period}
                       </div>
                       
                       <div className="absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2 bg-[var(--bg)] p-2 rounded-xl">
-                        <Folder size={64} className="fill-[var(--fg)] text-[var(--fg)] transition-transform duration-300 group-hover:-translate-y-2 group-hover:scale-110" />
+                        <Folder size={64} className="fill-[var(--fg)] text-[var(--fg)]" />
                         <div className="absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2 text-[var(--bg)] opacity-0 group-hover:opacity-100 transition-opacity font-mono text-[10px] font-bold">
                           &lt;/&gt;
                         </div>
@@ -75,13 +71,9 @@ export default function ExperienceSection() {
 
                   <div className={`w-full md:w-1/2 pl-8 sm:pl-16 md:pl-0 ${isEven ? 'md:pl-16 lg:pl-24' : 'md:pr-16 lg:pr-24'}`}>
                     <div 
-                      className="bg-[var(--bg)] border-2 border-[var(--fg)] rounded-2xl p-6 sm:p-8 md:p-10 transition-transform duration-300 hover:-translate-y-2 relative" 
+                      className="bg-[var(--bg)] border-2 border-[var(--fg)] rounded-2xl p-6 sm:p-8 md:p-10 relative" 
                       style={{ boxShadow: '8px 8px 0px 0px var(--fg)' }}
                     >
-                      <div className="bg-[var(--fg)] text-[var(--bg)] px-4 py-1.5 rounded-full text-[10px] sm:text-xs font-bold uppercase tracking-wider w-fit mb-6">
-                        {exp.period}
-                      </div>
-
                       <h3 className="text-2xl sm:text-3xl md:text-4xl font-bold uppercase tracking-tighter text-[var(--fg)] mb-3">
                         {exp.role}
                       </h3>

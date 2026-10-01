@@ -91,14 +91,15 @@ export default function HeroSection() {
 
           {/* Botões de Ação */}
           <div className="flex flex-wrap items-center gap-6 pt-4">
-            <Link 
-              href="#projetos"
+            <a 
+              href="/cv.pdf"
+              target="_blank"
+              rel="noopener noreferrer"
               className="group flex items-center gap-4 bg-[var(--fg)] text-[var(--bg)] px-8 py-4 md:px-10 md:py-5 rounded-none font-bold uppercase tracking-widest text-xs md:text-sm transition-all hover:bg-[var(--muted)] hover:scale-105"
             >
-              {locale === 'pt-BR' ? 'Ver Projetos' : locale === 'es' ? 'Ver Proyectos' : 'Explore Work'}
-              <ArrowRight size={20} className="transition-transform group-hover:translate-x-2" />
-            </Link>
-            {/* Botão de Download CV removido temporariamente conforme solicitado */}
+              {locale === 'pt-BR' ? 'Baixar CV' : locale === 'es' ? 'Descargar CV' : 'Download CV'}
+              <Download size={20} className="transition-transform group-hover:translate-y-1" />
+            </a>
           </div>
 
           {/* Redes Sociais */}
