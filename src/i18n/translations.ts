@@ -44,13 +44,13 @@ export const translations = {
     },
     projects: {
       label: '// projetos',
-      title: 'Trabalhos Selecionados',
+      title: 'Projetos em Destaque',
       viewAll: 'Ver Todos os Projetos',
       imgPlaceholder: '[ ESPAÇO PARA IMAGEM ]',
       items: [
-        { title: 'Project One', tags: ['Next.js', 'Tailwind'], description: 'Uma plataforma moderna para e-commerce.', role: 'Lead Frontend', disciplines: 'Desenvolvimento' },
-        { title: 'Project Two', tags: ['React', 'Framer Motion'], description: 'Aplicativo financeiro com foco em usabilidade.', role: 'Frontend Dev', disciplines: 'UI/UX, Code' },
-        { title: 'Project Three', tags: ['Vue.js', 'SCSS'], description: 'Dashboard analítico em tempo real.', role: 'Frontend Dev', disciplines: 'Code' }
+        { title: 'WEAVE', tags: ['Next.js', 'TypeScript', 'Tailwind', 'Node.js', 'Express', 'Redis', 'PostgreSQL', 'AWS'], description: 'Sistema web completo desenvolvido como Trabalho de Conclusão de Curso.', longDescription: 'O WEAVE é uma plataforma desenvolvida do zero como meu TCC. A arquitetura foi pensada para resolver problemas complexos com uma interface limpa e intuitiva, unindo o melhor da engenharia de software com design de ponta.' },
+        { title: 'OPENBUS', tags: ['React Native', 'Node.js'], description: 'App de extensão universitária focado em mobilidade inteligente.', longDescription: 'O OPENBUS é um aplicativo mobile que traz mobilidade inteligente para os estudantes do IFSP. Ele permite o rastreamento de rotas e horários de ônibus em tempo real, facilitando o transporte público universitário na palma da mão.' },
+        { title: 'BARÃO SUPLEMENTOS', tags: ['HTML', 'CSS', 'JavaScript'], description: 'E-commerce de alta performance, com foco em conversão.', longDescription: 'Landing page e catálogo desenvolvidos com foco total em usabilidade. Uma plataforma de vendas moderna, construída apenas com HTML, CSS e JavaScript vanilla, garantindo alta performance e otimização para motores de busca (SEO).' }
       ],
       viewProject: 'Ver Projeto',
       moreComingSoon: 'Mais projetos em breve...',
@@ -94,13 +94,13 @@ export const translations = {
     stack: { label: '// stack', title: 'Tech Stack' },
     projects: { 
       label: '// projects', 
-      title: 'Selected Works', 
+      title: 'Featured Projects', 
       viewAll: 'View All Projects',
       imgPlaceholder: '[ IMG PLACEHOLDER ]',
       items: [
-        { title: 'Project One', tags: ['Next.js', 'Tailwind'], description: 'A modern platform for e-commerce.', role: 'Lead Frontend', disciplines: 'Development' },
-        { title: 'Project Two', tags: ['React', 'Framer Motion'], description: 'Financial application focusing on usability.', role: 'Frontend Dev', disciplines: 'UI/UX, Code' },
-        { title: 'Project Three', tags: ['Vue.js', 'SCSS'], description: 'Real-time analytics dashboard.', role: 'Frontend Dev', disciplines: 'Code' }
+        { title: 'WEAVE', tags: ['Next.js', 'TypeScript', 'Tailwind', 'Node.js', 'Express', 'Redis', 'PostgreSQL', 'AWS'], description: 'Full-stack web system built as a final graduation project.', longDescription: 'WEAVE is a platform built from scratch as my final university project. The architecture was designed to solve complex problems with a clean and intuitive interface, combining software engineering with cutting-edge design.' },
+        { title: 'OPENBUS', tags: ['React Native', 'Node.js'], description: 'University extension app focused on smart mobility.', longDescription: 'OPENBUS is a mobile app that brings smart mobility to students. It enables real-time tracking of bus routes and schedules, making university public transit accessible right from their pockets.' },
+        { title: 'BARÃO SUPLEMENTOS', tags: ['HTML', 'CSS', 'JavaScript'], description: 'High-performance e-commerce focused on conversion rates.', longDescription: 'Landing page and product catalog built with a strong focus on usability. A modern sales platform, built with vanilla HTML, CSS, and JavaScript, ensuring high performance and Search Engine Optimization (SEO).' }
       ], 
       viewProject: 'View Project', 
       moreComingSoon: 'More projects coming soon...', 
@@ -137,13 +137,13 @@ export const translations = {
     stack: { label: '// stack', title: 'Tecnologías' },
     projects: { 
       label: '// proyectos', 
-      title: 'Trabajos Seleccionados', 
+      title: 'Proyectos Destacados', 
       viewAll: 'Ver Todos los Proyectos',
       imgPlaceholder: '[ IMAGEN ]',
       items: [
-        { title: 'Project One', tags: ['Next.js', 'Tailwind'], description: 'Una plataforma moderna para comercio electrónico.', role: 'Lead Frontend', disciplines: 'Desarrollo' },
-        { title: 'Project Two', tags: ['React', 'Framer Motion'], description: 'Aplicación financiera enfocada en la usabilidad.', role: 'Frontend Dev', disciplines: 'UI/UX, Code' },
-        { title: 'Project Three', tags: ['Vue.js', 'SCSS'], description: 'Panel analítico en tiempo real.', role: 'Frontend Dev', disciplines: 'Code' }
+        { title: 'WEAVE', tags: ['Next.js', 'TypeScript', 'Tailwind', 'Node.js', 'Express', 'Redis', 'PostgreSQL', 'AWS'], description: 'Sistema web completo desarrollado como proyecto final de carrera.', longDescription: 'WEAVE es una plataforma construida desde cero como mi proyecto de grado. La arquitectura fue diseñada para resolver problemas complejos con una interfaz limpia e intuitiva, combinando ingeniería de software con diseño moderno.' },
+        { title: 'OPENBUS', tags: ['React Native', 'Node.js'], description: 'App de extensión universitaria enfocada en movilidad inteligente.', longDescription: 'OPENBUS es una aplicación móvil que brinda movilidad inteligente a los estudiantes. Permite el seguimiento en tiempo real de rutas y horarios de autobuses, facilitando el transporte público universitario en la palma de la mano.' },
+        { title: 'BARÃO SUPLEMENTOS', tags: ['HTML', 'CSS', 'JavaScript'], description: 'E-commerce de alto rendimiento, enfocado en la conversión.', longDescription: 'Página de aterrizaje y catálogo de productos desarrollados con enfoque total en la usabilidad. Una plataforma de ventas moderna, construida con HTML, CSS y JavaScript vanilla, garantizando alto rendimiento y optimización para motores de búsqueda (SEO).' }
       ], 
       viewProject: 'Ver Proyecto', 
       moreComingSoon: 'Más proyectos próximamente...', 

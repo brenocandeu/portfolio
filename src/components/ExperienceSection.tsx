@@ -53,17 +53,17 @@ export default function ExperienceSection() {
                         {exp.period}
                       </div>
                       
-                      <div className="absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2 bg-[var(--bg)] p-2 rounded-xl">
+                      <div className="absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2 bg-[var(--bg)] p-2 rounded-xl z-10">
                         <Folder size={64} className="fill-[var(--fg)] text-[var(--fg)]" />
-                        <div className="absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2 text-[var(--bg)] opacity-0 group-hover:opacity-100 transition-opacity font-mono text-[10px] font-bold">
+                        <div className="absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2 text-[var(--bg)] font-mono text-[10px] font-bold">
                           &lt;/&gt;
                         </div>
                       </div>
-                      
-                      <span className="mt-8 text-xs font-bold tracking-[0.2em] uppercase text-[var(--fg)]">
+
+                      <span className="mt-8 text-xs font-bold tracking-[0.2em] uppercase invisible select-none">
                         Experience Archive
                       </span>
-                      <span className="text-[10px] text-[var(--muted)] mt-2">
+                      <span className="text-[10px] mt-2 invisible select-none">
                         Click Folder
                       </span>
                     </div>
